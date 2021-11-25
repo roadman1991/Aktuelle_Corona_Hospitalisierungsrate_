@@ -8,9 +8,7 @@ columns = ['Datum', 'Bundesland', 'Bundesland_Id', 'Altersgruppe',
 url = "https://raw.githubusercontent.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/master" \
       "/Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv"
 
-#date_today = today = str(date.today())
-
-date_today = '2021-11-26'
+date_today = today = str(date.today())
 
 today = datetime.datetime.utcnow().date()
 
