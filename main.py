@@ -1,5 +1,6 @@
 import datetime
 import os
+import webbrowser
 from datetime import date
 import pandas as pd
 
@@ -39,7 +40,7 @@ def filter_csv(df):
 def main():
     df = get_csv()
     df.to_html(html_name)
-    os.system("start " + HTML_FILE_PATH)
+    webbrowser.open(HTML_FILE_PATH)
 
 if __name__ == '__main__':
     main()
